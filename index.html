@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./fifth.js"></script>
+    <title>Result summary</title>
+</head>
+<body>
+    <div class="cover">
+        <div class="box1">
+            <h1 class="bh1">Your Result</h1>
+            <div class="p-g-t">
+                <h2>Average (/100): <span class="per"></span></h2>
+                <h2>Total (/400): <span class="to"></span></h2>
+                <h2><span class="message"></span></h2>
+                <h2><span class="comment"></span></h2>
+            </div>
+        </div>       
+        <div class="box2">
+            <div class="reaction-box">
+                <center>
+                    <input type="number" id="re" placeholder="Reaction"/>
+                    <input type="number" id="me" placeholder="Memory"/>
+                    <input type="number" id="ve" placeholder="Verbal"/>
+                    <input type="number" id="vi" placeholder="Visual"/>
+                </center>
+                <center><button type="button" onclick="show_result()">Continue</button></center>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div> 
+    </div>
+
+    
+</body>
+</html>
